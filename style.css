@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#wrap {
+    width: 400px;
+    margin: 10px;
+    border: 2px solid #556B2F;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #6B8E23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#wrap > div {
+    font-size: large;
+    font-family: "Franklin Gothic Medium", serif;
+    color: #07520f;
+}
+
+#wrap > button {
+    width: 100%;
+    font-size: large;
+    font-family: "Franklin Gothic Medium", serif;
+    color: #07520f;
+    border-top: #556B2F solid 2px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background: #6B8E23;
+}
+
+#wrap > button:hover {
+    background: #556B2F;
+}

@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #556B2F;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px #6B8E23;
+}
+
+#wrap {
+    width: 400px;
+    margin-top: 10px;
+    border: 2px solid #556B2F;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #6B8E23;
+}
+
+#wrap > h3 {
+    margin: 5px;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", serif;
+    color: #07520f;
+}
+
+#wrap > div {
+    margin: 0 10px 10px 10px;
+    font-family: "Comic Sans MS", serif;
+    color: #2f701e;
+}
+
+#title {
+    font-family: "Franklin Gothic Medium", serif;
+    color: #07520f;
+}
+
+#comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#comment {
+    width: 22%;
+    margin-top: 10px;
+    border: 2px solid #556B2F;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #6B8E23;
+}
+
+#comment > h4 {
+    margin: 5px;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", serif;
+    color: #07520f;
+}
+
+#comment > div {
+    margin: 0 10px 10px 10px;
+    font-family: "Comic Sans MS", serif;
+    color: #2f701e;
+}
